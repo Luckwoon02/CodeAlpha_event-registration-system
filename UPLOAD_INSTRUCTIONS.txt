@@ -1,0 +1,52 @@
+📋 STEP-BY-STEP GITHUB UPLOAD INSTRUCTIONS
+
+Follow these exact commands to upload your Job Board Platform to GitHub:
+
+1. OPEN COMMAND PROMPT/TERMINAL in your current project directory
+
+2. CLONE YOUR REPOSITORY:
+   git clone https://github.com/Luckwoon02/CodeAlpha_tasks.git
+   
+3. NAVIGATE TO THE CLONED REPOSITORY:
+   cd CodeAlpha_tasks
+
+4. NAVIGATE TO THE EXISTING JOB BOARD PLATFORM FOLDER:
+   cd "Job board platform"
+
+5. COPY ALL FILES TO THIS FOLDER:
+   - Copy all files from your current project directory
+   - Paste them into the "Job board platform" folder (overwrite existing files)
+   
+   Files to copy:
+   ✅ package.json
+   ✅ server.js  
+   ✅ README.md
+   ✅ test-api.js
+   ✅ .gitignore
+   ✅ DEPLOYMENT.md
+   ✅ models/ (entire folder)
+   ✅ routes/ (entire folder)
+
+7. ADD ALL FILES TO GIT:
+   git add .
+
+8. COMMIT THE CHANGES:
+   git commit -m "Add Job Board Platform - Complete Node.js Express MongoDB Backend"
+
+9. PUSH TO GITHUB:
+   git push origin main
+
+🎉 DONE! Your Job Board Platform will be uploaded to:
+https://github.com/Luckwoon02/CodeAlpha_tasks/tree/main/Job%20board%20platform
+
+ALTERNATIVE METHOD (If you prefer using GitHub web interface):
+1. Go to: https://github.com/Luckwoon02/CodeAlpha_tasks
+2. Click "Add file" → "Upload files"
+3. Drag and drop all your project files
+4. Create folder structure by typing "Job Board Platform/" before filenames
+5. Commit changes
+
+⚠️ IMPORTANT NOTES:
+- Make sure MongoDB connection string is not hardcoded in server.js
+- The .gitignore file will prevent uploading node_modules
+- Test the uploaded code by cloning and running npm install
